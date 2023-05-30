@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  /* padding-top: 100px; */
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg');
+  height: 100%;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  box-shadow: 50px 50px 40px black;
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  text-align: center;
+  height: fit-content;
+  padding: 25px;
+  padding-right: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 500px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+input{
+  font-size: 18px;
+  height: 30px;
+  width: 220px;
+  background-color: white;
+  border: none;
+  border-bottom: 3px solid blueviolet;
+  color: black;
+}
+textarea{
+  width: 200px;
+  background-color: white;
+  border: 2px solid blueviolet;
+}
+.radio{
+  background-color: white;
+  /* color: white; */
+  /* border: 30px solid black; */
+}
+select{
+  width: 220px;
+}
+.input_container{
+  /* border: 2px solid black;
+  padding: 5px; */
+  display: flex;
+  width: 380px;
+  justify-content: space-between;
+}
+.submit-btn{
+  font-size: large;
+  background-color: blueviolet;
+  width: 120px;
+  margin-top: 20px;
+}
+.submit-btn:hover{
+  background-color: white;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+}
